@@ -1,0 +1,21 @@
+{
+  "name": "nodeback",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-redis": "^4.0.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "express-slow-down": "^1.3.1",
+    "fs": "0.0.1-security",
+    "hashmap": "^2.4.0",
+    "morgan": "~1.9.1",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "saslprep": "^1.0.3"
+  }
+}
